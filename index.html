@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neha Paul</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsKOZ5HuLalE_i5er-cKIa3ULg8ROYeXg&callback=myMap"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2:400,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="app.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Neha Paul</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#interest">INTERESTS</a></li>
+        <li><a href="#contact">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!--Introduction-->
+<div id="profile">
+    <div class="container-fluid bgBlue text-center">
+        <br><br><br>
+        <img src="./NP.JPG" class="img-responsive img-circle margin" style="display:inline" width="250" height="250"><br>
+        <p>Front-End Developer . Full-Stack Developer . Software Engineer</p>
+        <button type="button" class="btn btn-default marginBig"><a href="Neha_Paul_Resume.pdf" target="_blank">Download Resume</a></button>
+    </div>
+</div>
+    <!--Introduction End-->
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid bg-grey">
+  <div class="row ">
+    <div>
+      <h2 class="text-center">About Me</h2><br>
+        <hr>
+      <br>
+      <p>Hi, my name is Neha and I am a Software Engineer Graduated from San Jose State University in May this year. I live in Sunnyvale, California. I am highly motivated and technically proficient Agile software developer, with a keen interest in Front-End and Full-Stack development. I am fluent in HTML, CSS, Bootstrap, JavaScript, AngularJS, NodeJS, Java, Android.</p>
+        <div>
+            
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="projects" class="container-fluid">
+  <h2 class="text-center">PROJECTS</h2>
+  <br>
+  <div class="row slideanim">
+      <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspEventapture(Re - Invent News)</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Eventapture is a web and Android based application specifically made for news. It is a platform for the users to share their stories, like the stories, audio or video comment on stories and have a community where users can have other users as their followers and can follow other users.</li>
+          <li>The Approval tool attempts to detect and eliminate fake news.</li>
+      </ul>
+      <h5>Contribution</h5>
+      <ul style="list-style-type:square">
+          <li>Back-end: Designed, developed and tested the Node REST API’s for services related to User Facing Application.</li>
+          <li>Approval Tool: Designed, developed and tested the MEAN Stack application for admin portal.</li>
+          <li>Cloud: Deployed the application in AWS.</li>
+          <li>Front-end: Social Authentication in Angular 2 using Firebase</li>
+          <li>MongoDB: Worked on database schema design for Admin tool and Main application.</li>
+      </ul>
+      <h5>Technology Used</h5>
+      <p>HTML5, CSS3, SCSS, Typescript, Angular 2, AngularJs, JSON, Android studio and SDK, Dagger2, Butter Knife, Retrofit, RxJava and RxAndroid, Fabric, Facebook Authentication API, AWS Android SDK, Node JS, Express, Morgan, Cookie-Parser, Body-Parser, Kafka, Zookeeper, Apache Hadoop, Apache Spark, Cassandra, Elasticsearch, MongoDB.</p>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspSPOT IT Android App</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Spot It is an Android application that is use to sell and buy things around the current/interested location of the user.</li>
+          <li>Location is selected using Google picker API and the maps are updated based on real time data coming from Eve Python REST API framework which is connected to Mongo DB. </li>
+          <li>The images/videos of the product shown in Augmented Reality to the user. The application backend is deployed on Amazon EC2 and S3 in order to store pictures and feed it to the front end. </li>
+          <li>Implemented AR user interface using Vuforia Sdk and Android Ndk (e.g.- Virtual Video playback on a physical target.)</li>
+      </ul>
+      <h5>Contribution</h5>
+      <ul style="list-style-type:square">
+          <li>Created major portions of the Android application.</li>
+          <li>Used Google picker API’s to select the user’s current location and to create a pin on the Google maps.</li>
+          <li>Real time information fetched from the server via web service API’s.</li>
+      </ul>
+      <h5>Technology Used</h5>
+      <p>Android, Eve, Google API’s, Vuforia Sdk, Android Ndk, MongoDB, Amazon EC2, Amazon S3.</p>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbsp&nbspMobile Testing as a Service(MTAAS)</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Crowd sourced Mobile Testing as A Service (MTAAS) platform which allows users to register as Testers or Application Developers. </li>
+          <li>MEAN Stack SAAS Application deployed on Amazon Bitnami instances with Elastic load balancer, S3, SQL databases and Multitenant environment.</li>
+          <li>This application features the testers to be rewarded with incentives after the completion of the testing successfully.</li>
+          <li>MTAAS features different billing modules to be selected by the App Developers. The Application Developer choose either between pay as you go plan or fixed pay plans.</li>
+      </ul>
+      <h5>Contribution</h5>
+      <ul style="list-style-type:square">
+          <li>Front-End: Created user facing application using HTML, CSS, Bootstrap and AngularJS</li>
+          <li>The data displayed in the front end was fetched from the server using API’s from NodeJS connected to an instance of Mongo DB.</li>
+      </ul>
+      <h5>Technology Used</h5>
+      <p>Bootstrap, CSS, JavaScript, AngularJS, NodeJS, MongoDB, Amazon Bitnami, Amazon S3.</p>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspMatrix App</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Created an Employee portal in AWS Cloud with integrated Active Directory from AWS and Social Media Single Sign ON. Authentication done using Auth0.</li>
+          <li>Used AWS Code Deploy and GitHub to push the latest code to EC2 instance automatically when changed.</li>
+      </ul>
+      <h5>Contribution</h5>
+      <ul style="list-style-type:square">
+          <li>Created a web application using Angular JS, HTML, CSS and Bootstrap.</li>
+          <li>Deployed the application from local machine to Amazon EC2 instance using GitHub and Amazon Code Deploy.</li>
+      </ul>
+      <h5>Technology Used</h5>
+      <p>Mean Stack, Amazon Code Deploy, Git/GitHub, Auth0</p>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspAutomation of infrastructure service and application deployment</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Deployed CENT OS on all the machines using PXE Boot.</li>
+          <li>A MEAN application was deployed on all the servers and used Splunk to monitor the Mongo DB instances.</li>
+      </ul>
+      <h5>Contribution</h5>
+      <ul style="list-style-type:square">
+          <li>Created the front and backend for a Mean Stack application, incorporated session management.</li>
+      </ul>
+      <h5>Technology Used</h5>
+      <p>PXE, AngularJS, MongoDB, ExpressJS, NodeJS, Splunk, Puppet.</p>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspHigh Availability and Load Balancing</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Created a cluster of virtual machines by using VMWare ESXi hypervisor.</li>
+          <li>Created High Availability of virtual machines using Apache Heartbeat.</li>
+          <li>Balanced the load between the machines using Mod_jk.</li>
+      </ul>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspShopping Cart Application</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Created a shopping website with generic item listing and search.</li>
+          <li>The website design also included a shopping cart to enable checkout of selected items.</li>
+          <li>Development mostly done in PHP.</li>
+      </ul>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspTicketing System Development</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Created a ticketing system for a Ski resort.</li>
+          <li>Created a ticketing system for a lodge.</li>
+          <li>Incorporated customizable package selection with multiple options</li>
+          <li>Development done in Java, VB and Crystal Reports.</li>
+      </ul>
+  </div>
+     <br><br>
+  <div class="row slideanim">
+    <i class="fa fa-pencil logo-small" aria-hidden="true">&nbspHigh Availability and Load Balancing</i>
+      <br><br>
+      <ul style="list-style-type:circle">
+          <li>Created an android app for bath Tub Company operating in Vancouver.</li>
+          <li>The app enabled the company to display their products to consumers in trade shows.</li>
+          <li>Based on user preferences, the app allowed customization of bathtubs with real time visual and product cost estimate.</li>
+      </ul>
+    </div>
+</div>  
+<!-- Container (Portfolio Section) -->
+<div id="experience" class="container-fluid text-center bg-grey">
+  <h2>EXPERIENCE</h2><br>
+   <div class="row slideanim white">
+     <div class="col-sm-8 text-left">
+         <i class="fa fa-check-square-o logo-small-font" aria-hidden="true">&nbspERICSSON (FOR MOBILE PROGRAMMING LLC) (SOFTWARE ENGINEER INTERN)</i>
+            <h6>SOFTWARE ENGINEER INTERN | SANTA CLARA, CA | AUG 2016 – DEC 2016</h6>
+          <ul style="list-style-type:square">
+              <li>Created Android Tv application for Ericsson Smart Home project. </li>
+              <li>Used MQTT to send messages from Android tv application to backend code on raspberry pi.</li>
+              <li>Worked with Ericsson CTO to create a virtual environment using MIT open hybrid for Smart Home.</li>
+              <li>Worked as a part of Ericsson Innovation team to present Smart Home Application to C class employees.</li>
+              <li>Used Docker, Git and Resin.io to deploy the application to Raspberry Pi.</li>
+          </ul>    
+      </div>
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <div id="santaClara" style="width:200px;height:200px;"></div>
+        <p><strong>Santa Clara, US</strong></p>
+      </div>
+     </div>
+    </div>
+    <br>
+    <div class="row slideanim white">
+     <div class="col-sm-8 text-left">
+         <i class="fa fa-check-square-o logo-small-font" aria-hidden="true">&nbspMOBILE PROGRAMMING LLC	(SOFTWARE ENGINEER INTERN)</i>
+            <h6>SOFTWARE ENGINEER INTERN | SANTA CLARA, CA | APRIL 2016 – AUG 2016</h6>
+          <ul style="list-style-type:square">
+              <li>Assisted in developing Android application for water level management using Samsung ARTIK.</li>
+              <li>Created Android application using Google Brillo and Intel Edison for Water Level Management project.</li>
+          </ul>    
+      </div>
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <div id="sc" style="width:200px;height:200px;"></div>
+        <p><strong>Santa Clara, US</strong></p>
+      </div>
+     </div>
+    </div>
+    <br>
+    <div class="row slideanim white">
+     <div class="col-sm-8 text-left">
+         <i class="fa fa-check-square-o logo-small-font" aria-hidden="true">&nbspBASIC GOV	(SOFTWARE CONSULTANT)</i>
+            <h6>SOFTWARE CONSULTANT | VANCOUVER, CANADA | OCT 2014 – JAN 2015</h6>
+          <ul style="list-style-type:square">
+              <li>Deployed change sets to customer portals managed by Basic Gov.</li>
+              <li>Managed customer database (Salesforce DB query management).</li>
+              <li>Worked on Salesforce CRM solutions and proprietary Basic Gov software to create letters and generate reports.</li>
+          </ul>    
+      </div>
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <div id="vancouver" style="width:200px;height:200px;"></div>
+        <p><strong>Vancouver, Canada</strong></p>
+      </div>
+     </div>
+    </div>
+    <br>
+    <div class="row slideanim white">
+     <div class="col-sm-8 text-left">
+         <i class="fa fa-check-square-o logo-small-font" aria-hidden="true">&nbspOMNI LOGIC SOLUTIONS, INC (SOFTWARE CONSULTANT)</i>
+            <h6>SOFTWARE CONSULTANT | VANCOUVER, CANADA | JULY 2013 – SEPT 2014 </h6>
+          <ul style="list-style-type:square">
+              <li>Interacted with the customers for requirement gathering.  </li>
+              <li>Interfaced between the customers and primary developers and helped develop certain modules.</li>
+              <li>Created several packages for NAV and their corresponding documentation.</li>
+              <li>Helped in the deployment of the software at customer site and create reports using Microsoft Dynamic NAV.</li>
+          </ul>    
+      </div>
+     <div class="col-sm-4">
+      <div class="thumbnail">
+        <div id="van" style="width:200px;height:200px;"></div>
+        <p><strong>Vancouver, Canada</strong></p>
+      </div>
+     </div>
+    </div>
+    <br>
+    <div class="row slideanim white">
+     <div class="col-sm-8 text-left">
+         <i class="fa fa-check-square-o logo-small-font" aria-hidden="true">&nbspOFFICE OF THE CHIEF JUDGE	(INTERN)</i>
+            <h6>INTERN | VANCOUVER, CANADA | SEPT 2011 – DEC 20116</h6>
+          <ul style="list-style-type:square">
+              <li>•	Deployment and verification of the newly developed server systems on various platforms.</li>
+              <li>•	Provided a wide array of technical support to the employees at the Office of the Chief Judge.</li>
+          </ul>    
+      </div>
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <div id="vanc" style="width:200px;height:200px;"></div>
+        <p><strong>Vancouver, Canada</strong></p>
+      </div>
+     </div>
+    </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="interest" class="container-fluid">
+  <div class="text-center">
+    <h2>Interests</h2>
+      <p>I like Photography and all pictures below are taken from iPhone</p>
+  </div> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="yosemite2.JPG" alt="Yosemite" style="width:100%;height:900px;">
+        <div class="carousel-caption">
+          <h3>Yosemite, US</h3>
+          <p>Merced River</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="fireworks.JPG" alt="Liverpool" style="width:100%;height:900px;">
+        <div class="carousel-caption">
+          <h3>Vallejo, US</h3>
+          <p>Independence Day</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="mountainview1.JPG" alt="Mountainview" style="width:100%;height:900px;">
+        <div class="carousel-caption">
+          <h3>Mountainview, US</h3>
+          <p>Mountainview Lake</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT ME</h2>
+    <hr>
+  <div class="row">
+    <div class="col-sm-8">
+      <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp Sunnyvale, US</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>&nbsp neha.m.paul@gmail.com</p>
+    </div>
+    <div class="col-sm-4 slideanim">
+      <span class="fa fa-file-code-o logo slideanim"></span>
+    </div>
+</div>
+</div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Copyright &nbsp<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp 2017 Neha Paul</p>
+</footer>
+</body>
+</html>
